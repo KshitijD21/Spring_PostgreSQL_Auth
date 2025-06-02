@@ -67,9 +67,6 @@ public class UserService {
 
       List<Users> allData  = repo.findAll();
         System.out.println(" allData " + allData);
-
-
-
         return allData;
 
     }

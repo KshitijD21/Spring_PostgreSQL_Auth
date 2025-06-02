@@ -39,12 +39,16 @@ cd Spring_PostgreSQL_Auth
 
 ### 2. Configure Environment Variables
 
-You can either create a .env file.
+Create a `.env` file or directly update `application.properties` with your PostgreSQL credentials:
 
     SECURITY_USER=xyz
     SECURITY_PASS=xyz
     DB_USER=xyz
     DB_PASS=xyz
+
+
+> 📝 **Note:** This setup uses **PostgreSQL**.  
+> If you prefer **MongoDB** or another database, you can switch it easily — just make sure to update the configurations and related code accordingly.
 
 ### 3. Run the app
 

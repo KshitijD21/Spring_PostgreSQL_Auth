@@ -41,6 +41,11 @@ cd Spring_PostgreSQL_Auth
 
 You can either create a .env file.
 
+    SECURITY_USER=xyz
+    SECURITY_PASS=xyz
+    DB_USER=xyz
+    DB_PASS=xyz
+
 ### 3. Run the app
 
 ```bash
